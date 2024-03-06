@@ -1,0 +1,53 @@
+*{
+    background-color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.header input {
+    padding: 11px 30px;
+    background-color: bisque;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.header button {
+    padding: 11px 30px;
+    background-color: lightslategrey;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header button:hover{
+    background-color: rgb(99, 125, 152);
+    border: 2px solid rgb(200, 200, 200);
+}
+
+.weather{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    color: azure;
+    
+}

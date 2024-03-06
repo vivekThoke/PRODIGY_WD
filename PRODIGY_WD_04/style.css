@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+body {
+    font-family: "Kode Mono", monospace;
+    /* --main--color: #040913; */
+    background-image: linear-gradient(to left, #040913, #0e121a, #151820, #1b1d27, #21232e, #21232e, #21232e, #21232e, #1b1d27, #151820, #0e121a, #040913);
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+a{
+    color: white;
+}
+
+.inner-box {
+    width: 95%;
+    height: 90vh;
+    background-color: #040913;
+    margin: 35px 37px;
+    background-image: linear-gradient(#15182079 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #1518205c calc(100% - 0.5px)), linear-gradient(90deg, #15182070 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #15182064 calc(100% - 0.5px));
+    background-size: 3% 8%;
+    border: 0.5px solid #151820;
+    box-shadow: inset 0 20px 400px 260px #040913;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px 6rem;
+    cursor: pointer;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.landing-btn {
+    width: 170px;
+    height: 25px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 3px;
+    background-image: linear-gradient(to right top, #0d010b, #0c020f, #090312, #050514, #010716);
+    box-shadow: 0 4px 8px 0 rgba(146, 146, 146, 0.2), 0 6px 20px 0 rgba(131, 131, 131, 0.19);
+    border-radius: 14px;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+/* .landing h1 {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 0.1rem;
+} */
+
+/* .landing h1 {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #f32170 0%,
+            #ff6b08 29%,
+            #cf23cf 67%,
+            #eedd44 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 15s linear infinite;
+    display: inline-block;
+    font-size: 3.5rem;
+    margin-top: 0.1rem;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+} */
+
+.landing h1{
+    background-image: url(https://64.media.tumblr.com/0e0c9c0c2dff2c96af8c8091debf482c/9710033d91b8e4d0-09/s400x600/50090e8bb39cac5a8a4df259ae8fccf405420422.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    /* margin: 10px 0; */
+    margin-top: 0.1rem;
+}
+
+.web {
+    font-size: 2.5rem;
+    margin-top: 0.1rem;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.img img {
+    width: 250px;
+    border-radius: 50%;
+    transition:ease-in-ou;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(166, 166, 166, 0.2), 0 6px 20px 0 rgba(125, 125, 125, 0.548);
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.profile h2{
+    background-image: url(https://64.media.tumblr.com/0e0c9c0c2dff2c96af8c8091debf482c/9710033d91b8e4d0-09/s400x600/50090e8bb39cac5a8a4df259ae8fccf405420422.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.para {
+    text-align: center;
+    padding: 1rem 14rem;
+    gap: 10px;
+    line-height: 1.9rem;
+    margin-bottom: 0;
+}
+
+.contact{
+    width: 170px;
+    height: 20px;
+    border: 1px solid white;
+    text-align: center;
+    background-image: linear-gradient(to right top, #0d010b, #0c020f, #090312, #050514, #010716);
+    box-shadow: 0 4px 8px 0 rgba(146, 146, 146, 0.2), 0 6px 20px 0 rgba(131, 131, 131, 0.19);
+    border-radius: 14px;
+    padding-bottom: 3px;
+    margin-top: 0.5rem;
+}
+
+.gamil{
+    margin-top: 1rem;
+}
+
+.project {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    background-image: url(https://64.media.tumblr.com/0e0c9c0c2dff2c96af8c8091debf482c/9710033d91b8e4d0-09/s400x600/50090e8bb39cac5a8a4df259ae8fccf405420422.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 4rem 5rem;
+}
+
+.project-card{
+    display: flex;
+    width: 16rem;
+    height: 20rem;
+    border: 2px solid antiquewhite;
+    flex-direction: column;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right top, #0d010b, #0c020f, #090312, #050514, #010716);
+    box-shadow: 0 4px 8px 0 rgba(61, 61, 61, 0.437), 0 6px 20px 0 rgba(60, 60, 60, 0.432);
+}
+
+.project-card img{
+    width: 100%;
+    height: 22vh;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.sub-class{
+    padding: 2px 7px;
+}
+
+.sub-class h3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-class p {
+    text-align:left;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.sub-class button{
+    margin-top: 9px;
+    width: 100%;
+    background-image: linear-gradient(to right top, #0d010b, #0c020f, #090312, #050514, #010716);
+    box-shadow: 0 4px 8px 0 rgba(146, 146, 146, 0.2), 0 6px 20px 0 rgba(131, 131, 131, 0.19);
+    border-radius: 14px;
+}
